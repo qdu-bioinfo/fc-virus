@@ -58,10 +58,10 @@ g++ -o FC-Virus GeneralSet.cpp ReadUtility.cpp KmerUtility.cpp KmerHash.cpp Homo
 ```
 Then run FC-Virus:
 ```
-./FC-Virus -o /path/to/output -k 25 --left /path/to/left.fq --right /path/to/right.fq
+./FC-Virus -t fq --left forward.fastq --right  reverse.fastq -o ./outfile/
 ```
 
 Example command
 ```
-./FC-Virus -t fq --left ../path/to/forward.fastq --right ../path/to/reverse.fastq -o ../path/to/outfile/
+./FC-Virus -t fq --left ./path/to/forward.fastq --right ./path/to/reverse.fastq -o ./path/to/outfile/
 ```
