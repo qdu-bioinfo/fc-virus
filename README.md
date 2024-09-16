@@ -54,7 +54,7 @@ cd /path/to/FC-Virus/code
 ```
 Compile using g++:
 ```
-g++ -o FC-Virus -std=c++11 main.cpp GeneralSet.cpp kmer.cpp ex_r.cpp ex_l.cpp
+g++ -o FC-Virus GeneralSet.cpp ReadUtility.cpp KmerUtility.cpp KmerHash.cpp HomoKmer.cpp Consensus.cpp FC-Virus.cpp
 ```
 Then run FC-Virus:
 ```
