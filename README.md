@@ -21,7 +21,6 @@ bioconda install FC-Virus
 ### 2. Use Precompiled Binaries:
 Download FC-Virus from GitHub or clone the repository:
 ```
-=======
 git clone https://github.com/qdu-bioinfo/FC-Virus.git
 ```
  Navigate to the FC-Virus directory
