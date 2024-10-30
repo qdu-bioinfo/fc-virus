@@ -23,10 +23,6 @@ Download FC-Virus from GitHub or clone the repository:
 ```
 https://github.com/qdu-bioinfo/FC-Virus.git
 ```
- Ensure unzip is installed and unzip the downloaded file
- ```
-unzip FC-Virus-master.zip
-```
  Navigate to the FC-Virus directory
  ```
 cd /path/to/FC-Virus
