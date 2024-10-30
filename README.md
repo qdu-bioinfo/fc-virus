@@ -21,7 +21,8 @@ bioconda install FC-Virus
 ### 2. Use Precompiled Binaries:
 Download FC-Virus from GitHub or clone the repository:
 ```
-https://github.com/qdu-bioinfo/FC-Virus.git
+=======
+git clone https://github.com/qdu-bioinfo/FC-Virus.git
 ```
  Navigate to the FC-Virus directory
  ```
@@ -50,14 +51,14 @@ cd /path/to/FC-Virus/code
 ```
 Compile using g++:
 ```
-g++ -o FC-Virus -std=c++11 main.cpp GeneralSet.cpp kmer.cpp ex_r.cpp ex_l.cpp
+g++ -o FC-Virus GeneralSet.cpp ReadUtility.cpp KmerUtility.cpp KmerHash.cpp HomoKmer.cpp Consensus.cpp FC-Virus.cpp
 ```
 Then run FC-Virus:
 ```
-./FC-Virus -o /path/to/output -k 25 --left /path/to/left.fq --right /path/to/right.fq
+./FC-Virus -t fq --left forward.fastq --right  reverse.fastq -o ./outfile/
 ```
 
 Example command
 ```
-./FC-Virus -t fq --left ../path/to/forward.fastq --right ../path/to/reverse.fastq -o ../path/to/outfile/
+./FC-Virus -t fq --left ./path/to/forward.fastq --right ./path/to/reverse.fastq -o ./path/to/outfile/
 ```

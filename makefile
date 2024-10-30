@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -g
 SRC_DIR = code
 BIN_DIR = bin
-TARGET = $(BIN_DIR)/FC-Virus
+TARGET = $(BIN_DIR)/fc-virus
 
 # 列出所有源文件
 SRCS = $(SRC_DIR)/GeneralSet.cpp \
