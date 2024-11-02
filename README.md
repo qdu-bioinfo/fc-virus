@@ -9,23 +9,23 @@ FC-Virus is a powerful tool designed for full-length virus genome assembly. The 
 
 ## Installation Instructions
 
-You can install FC-Virus in the following ways:
+You can install fc-virus in the following ways:
 
 ### 1. Install via Bioconda
 ```
 We have already submitted the application to Bioconda. Please stay tuned. Once it’s approved, you’ll be able to install it using the following command:
 ```
 ```
-bioconda install FC-Virus
+bioconda install fc-virus
 ```
 ### 2. Use Precompiled Binaries:
-Download FC-Virus from GitHub or clone the repository:
+Download fc-virus from GitHub or clone the repository:
 ```
-git clone https://github.com/qdu-bioinfo/FC-Virus.git
+git clone https://github.com/qdu-bioinfo/fc-virus.git
 ```
- Navigate to the FC-Virus directory
+ Navigate to the fc-virus directory
  ```
-cd /path/to/FC-Virus
+cd /path/to/fc-virus
 ```
  Install by running make
  ```
@@ -37,7 +37,7 @@ vim ~/.bashrc
 ```
  Add the following line to ~/.bashrc
  ```
-export PATH="$PATH:/path/to/FC-Virus/bin"
+export PATH="$PATH:/path/to/fc-virus/bin"
 ```
  Apply the changes
  ```
@@ -46,18 +46,18 @@ source ~/.bashrc
 ### 3. Compile from source
 To compile from source, navigate to the code directory:
 ```
-cd /path/to/FC-Virus/code
+cd /path/to/fc-virus/code
 ```
 Compile using g++:
 ```
-g++ -o FC-Virus GeneralSet.cpp ReadUtility.cpp KmerUtility.cpp KmerHash.cpp HomoKmer.cpp Consensus.cpp FC-Virus.cpp
+g++ -o fc-virus GeneralSet.cpp ReadUtility.cpp KmerUtility.cpp KmerHash.cpp HomoKmer.cpp Consensus.cpp FC-Virus.cpp
 ```
-Then run FC-Virus:
+Then run fc-virus:
 ```
-./FC-Virus -t fq --left forward.fastq --right  reverse.fastq -o ./outfile/
+./fc-virus -t fq --left forward.fastq --right  reverse.fastq -o ./outfile/
 ```
 
 Example command
 ```
-./FC-Virus -t fq --left ./path/to/forward.fastq --right ./path/to/reverse.fastq -o ./path/to/outfile/
+./fc-virus -t fq --left ./path/to/forward.fastq --right ./path/to/reverse.fastq -o ./path/to/outfile/
 ```
