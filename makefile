@@ -2,8 +2,8 @@
 CXX = g++
 CXXFLAGS = -Wall -g
 SRC_DIR = code
-BIN_DIR = bin
-TARGET = $(BIN_DIR)/fc-virus
+#BIN_DIR = bin
+TARGET = fc-virus
 
 # 列出所有源文件
 SRCS = $(SRC_DIR)/GeneralSet.cpp \
@@ -30,7 +30,7 @@ $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 # 清理目标
-clean:
-	rm -f $(OBJS) $(TARGET)
+#clean:
+#	rm -f $(OBJS) $(TARGET)
 
-.PHONY: all clean
+#.PHONY: all clean
