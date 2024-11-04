@@ -19,10 +19,10 @@ OBJS = $(SRCS:.cpp=.o)
 
 # 默认目标
 all: $(TARGET)
-#
+
 # 规则来构建目标
 $(TARGET): $(OBJS)
-	@mkdir -p  $(BIN_DIR) # 确保 bin 目录存在
+	@mkdir -p $(BIN_DIR) # 确保 bin 目录存在
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
 
 # 规则来构建每个对象文件
@@ -34,3 +34,4 @@ clean:
 	rm -f $(OBJS) $(TARGET)
 
 .PHONY: all clean
+
