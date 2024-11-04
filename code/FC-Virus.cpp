@@ -111,7 +111,7 @@ int parse_options(int argc, char* argv[]) {
 
 	if (g_help) {
 		cout << usage();
-		exit (1);
+		exit (0);
 	}
 
 
