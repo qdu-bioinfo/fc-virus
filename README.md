@@ -13,10 +13,7 @@ You can install fc-virus in the following ways:
 
 ### 1. Install via Bioconda
 ```
-We have already submitted the application to Bioconda. Please stay tuned. Once it’s approved, you’ll be able to install it using the following command:
-```
-```
-bioconda install fc-virus
+conda install fc
 ```
 ### 2. Use Precompiled Binaries:
 Download fc-virus from GitHub or clone the repository:
