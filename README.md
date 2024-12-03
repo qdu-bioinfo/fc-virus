@@ -7,6 +7,18 @@ FC-Virus is a genome assembly algorithm designed to accurately reconstruct full-
 - **Operating System:** Linux
 - **C++ Standard:** C++11 or higher
 - **Boost**
+  ```
+   wget http://downloads.sourceforge.net/project/boost/boost/1.80.0/boost_1_80_0.tar.gz
+   tar xfz boost_1_80_0.tar.gz
+   rm boost_1_80_0.tar.gz
+   cd boost_1_80_0
+   ./bootstrap.sh --prefix=/usr/local --with-libraries=program_options,regex,filesystem,system
+   export
+   ./b2 install
+   cd /home
+   rm -rf boost_1_80_0
+   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
+  ```
 
 ## Installation Instructions
 
