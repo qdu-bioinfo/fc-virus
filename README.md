@@ -1,11 +1,12 @@
 # FC-Virus
 
-FC-Virus is a powerful tool designed for full-length virus genome assembly. The package includes precompiled binaries for direct execution.
+FC-Virus is a genome assembly algorithm designed to accurately reconstruct full-length consensus sequences for viral quasispecies. A key advantage of FC-Virus is its ability to produce a single consensus sequence that delivers the same assembly outcomes as multiple contigs from other assemblers.
 
 ## Requirements
 
 - **Operating System:** Linux
 - **C++ Standard:** C++11 or higher
+- **Boost**
 
 ## Installation Instructions
 
